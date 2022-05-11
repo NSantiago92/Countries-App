@@ -1,0 +1,140 @@
+.add_activity {
+  display: flex;
+  justify-content: center;
+}
+.form_shell {
+  margin-top: 100px;
+  width: 500px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  background: #4e5c8b;
+  color: whitesmoke;
+  border-radius: 5px;
+}
+.back_btn {
+  text-align: left;
+  margin-left: 15px;
+}
+.back_btn a {
+  text-decoration: underline;
+  font-size: medium;
+  font-weight: 500;
+  color: white;
+}
+.input_form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.input_field {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.invalid_input {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.invalid_input input {
+  outline: 2px solid red;
+}
+.input_text {
+  height: 30px;
+  padding: 0px;
+  border: 0px;
+  border-radius: 4px;
+  font-size: larger;
+  text-align: center;
+}
+.input_text:focus {
+  outline: none;
+}
+.checkbox_container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.checkbox_container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+.checkmark {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 25px;
+  width: 25px;
+  background: transparent;
+  background-image: url("../../assets/emptystar_icon.png");
+}
+.checkbox_container:hover input ~ .checkmark {
+  transform: translate(-50%, -50%) scale(1.2);
+}
+.checkbox_container input:checked ~ .checkmark {
+  background-image: url("../../assets/fullstar_icon.png");
+}
+.checkbox_container input:focus-within ~ .checkmark {
+  border: 1px solid lightgray;
+}
+.submit_btn {
+  padding: 5px;
+  width: 90%;
+  height: 35px;
+  margin-top: 30px;
+  background-color: #54a33e;
+  border-radius: 5px;
+  border: 0px;
+  color: white;
+  font-size: medium;
+  font-weight: 500;
+  cursor: pointer;
+}
+.invalid_submit_btn {
+  padding: 5px;
+  width: 90%;
+  height: 35px;
+  margin-top: 30px;
+  background-color: gray;
+  border-radius: 5px;
+  border: 0px;
+  color: lightgray;
+  font-size: medium;
+  font-weight: 500;
+}
+.submit_btn:hover {
+  transform: scale(1.03);
+  background-color: #6acf4e;
+}
+.submit_btn:active {
+  transform: scale(1);
+  background-color: #368140;
+}
+
+.obligatory {
+  font-size: small;
+  display: flex;
+  margin-left: 5px;
+}
+.invalid_obligatory {
+  font-size: medium;
+  display: flex;
+  margin-left: 5px;
+  color: red;
+  font-weight: 400;
+}

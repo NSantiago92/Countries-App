@@ -1,0 +1,21 @@
+.landing {
+  background-color: "#4e5c8b";
+  height: 100vh;
+}
+
+.landing a {
+  color: white;
+  text-decoration: none;
+}
+.landing a:focus {
+  color: white;
+}
+
+.landing h1 {
+  font-size: 40px;
+}
+
+.landing img {
+  padding-top: 60px;
+  height: 80%;
+}

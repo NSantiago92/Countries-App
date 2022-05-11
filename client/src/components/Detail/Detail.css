@@ -1,0 +1,69 @@
+.detail_page {
+  display: flex;
+  justify-content: center;
+}
+.detail_shell {
+  margin-top: 150px;
+  background-color: white;
+  width: 500px;
+  padding: 10px;
+}
+.detail_shell a {
+  float: left;
+  cursor: pointer;
+  position: relative;
+  z-index: 1000;
+  text-decoration: underline;
+  color: gray;
+  font-size: large;
+}
+.flag_shell {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+  transform: translateY(-50%);
+}
+.flag_shell img {
+  width: 300px;
+}
+.flag_shell h1 {
+  margin: 3px;
+}
+.flag_shell span {
+  color: rgb(116, 116, 116);
+  font-size: larger;
+}
+.info_shell {
+  display: flex;
+  flex-direction: row;
+  transform: translateY(-50%);
+}
+.info_shell p {
+  margin: 5px;
+}
+.info_shell h3 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.info_shell span {
+  color: rgb(116, 116, 116);
+  font-size: medium;
+}
+.region_info_shell {
+  text-align: left;
+  font-size: large;
+}
+.region_info_shell i {
+  color: rgb(116, 116, 116);
+  font-size: medium;
+}
+.stats_info_shell {
+  text-align: right;
+  margin-top: 27px;
+  margin-left: auto;
+}
+.stats_info_shell span {
+  font-size: large;
+  color: rgb(116, 116, 116);
+}

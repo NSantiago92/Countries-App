@@ -1,0 +1,22 @@
+.home {
+  display: flex;
+  justify-content: center;
+}
+.home_shell {
+  width: 80%;
+  min-width: 320px;
+}
+@media only screen and (max-width: 640px) {
+  .home_shell {
+    width: 100%;
+  }
+}
+.bar {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #4e5c8b;
+  color: whitesmoke;
+  border-radius: 0px 0px 5px 5px;
+}

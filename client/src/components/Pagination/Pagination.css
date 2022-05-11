@@ -1,0 +1,28 @@
+.pagination_shell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination_shell button {
+  border: none;
+  background-color: white;
+  font-size: medium;
+  padding: 5px;
+  margin: 1px;
+  height: 30px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.pagination_shell div {
+  border: none;
+  font-size: medium;
+  margin: 1px;
+  position: relative;
+  font-size: larger;
+  font-weight: 400;
+}
+
+.pagination_shell button:hover {
+  background-color: lightgray;
+}

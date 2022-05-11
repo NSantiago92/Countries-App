@@ -1,0 +1,32 @@
+.popup_shell {
+  width: 40vh;
+  min-width: 300px;
+}
+.home_btn {
+  padding: 5px;
+  width: 90%;
+  height: 35px;
+  margin-top: 30px;
+  background-color: #54a33e;
+  border-radius: 5px;
+  border: 0px;
+  color: white;
+  font-size: medium;
+  font-weight: 500;
+  cursor: pointer;
+}
+.home_btn:hover {
+  transform: scale(1.03);
+  background-color: #6acf4e;
+}
+.home_btn:active {
+  transform: scale(1);
+  background-color: #368140;
+}
+.exit_btn {
+  display: block;
+  margin-left: auto;
+  border: 0px;
+  font-size: larger;
+  cursor: pointer;
+}

@@ -1,0 +1,33 @@
+.country_tag {
+  background-color: #2e2e36;
+  height: 28px;
+  color: whitesmoke;
+  border: 0px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: fit-content;
+  margin: 3px;
+}
+.flag_thumb_shell {
+  height: fit-content;
+  width: 60px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+}
+.flag_thumb {
+  border-radius: 15px;
+  object-fit: scale-down;
+}
+.text_shell {
+  height: 25px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.close_btn {
+  margin-left: 10px;
+  margin-right: 10px;
+}

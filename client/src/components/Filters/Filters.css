@@ -1,0 +1,105 @@
+.filters_shell {
+  display: flex;
+  flex-direction: row;
+  width: 80vw;
+  max-width: 80%;
+}
+.selects_shell {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.tags_shell {
+  display: flex;
+  flex-direction: column;
+}
+.country_tags {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.activity_tags {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.orderby_shell {
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.orderby_select {
+  width: 90%;
+  min-width: 220px;
+  border: 0px;
+  height: 25px;
+  text-align: center;
+  font-size: medium;
+  border-radius: 5px;
+  background-color: white;
+}
+.orderby_select:hover {
+  background-color: #e6e6e6;
+}
+.filterby_shell {
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.filterby_select {
+  width: 90%;
+  min-width: 220px;
+  border: 0px;
+  height: 25px;
+  text-align: center;
+  font-size: medium;
+  border-radius: 5px;
+  background-color: white;
+}
+.filterby_select:hover {
+  background-color: #e6e6e6;
+}
+.clear_btn {
+  width: fit-content;
+  cursor: pointer;
+  color: white;
+  font-size: medium;
+  font-weight: 500;
+  text-align: left;
+  text-decoration: underline;
+  border: none;
+  background: transparent;
+}
+.activity_btn_shell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: fit-content;
+  margin-left: auto;
+}
+.activity_btn {
+  padding: 5px;
+  width: 105px;
+  height: 35px;
+  margin-top: 3px;
+  background-color: #54a33e;
+  border-radius: 5px;
+  border: 0px;
+  color: white;
+  font-size: medium;
+  font-weight: 500;
+  cursor: pointer;
+}
+.activity_btn:hover {
+  transform: scale(1.03);
+  background-color: #6acf4e;
+}
+.activity_btn:active {
+  transform: scale(1);
+  background-color: #368140;
+}

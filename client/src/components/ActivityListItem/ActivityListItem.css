@@ -1,0 +1,35 @@
+.item_shell_on {
+  width: 500px;
+  background-color: #e6e3e3;
+  margin: 2px;
+}
+.item_shell_on div {
+  padding: 0 18px;
+  max-height: fit-content;
+  overflow: hidden;
+  background-color: #e6e3e3;
+}
+.item_shell_off {
+  width: 500px;
+  background-color: white;
+  margin: 2px;
+}
+.item_shell_off div {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+}
+.collapsible {
+  text-align: center;
+  background: transparent;
+  color: #555;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: large;
+}
+.collapsible:hover {
+  background-color: #e6e3e3;
+}
